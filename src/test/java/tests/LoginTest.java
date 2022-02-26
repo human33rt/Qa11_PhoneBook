@@ -41,6 +41,7 @@ public class LoginTest extends TestBase{
         User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
         //String email = "noa@gmail.com";
         //String password = "Nnoa12345$";
+        logger.info(user.toString());
 
         app.getUser().openLoginRegistrationForm();
         //app.getUser().fillLoginRegistrationForm(email,password);

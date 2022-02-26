@@ -5,7 +5,6 @@ plugins {
 group 'com.telran'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -20,6 +19,8 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.22'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
+    implementation 'ch.qos.logback:logback-classic:1.2.5'
+
 }
 
 test {
