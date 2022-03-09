@@ -1,0 +1,14 @@
+20:52:59. INFO  manager.ApplicationManager - All tests starts in Chrome browser
+20:52:59. INFO  manager.ApplicationManager - Link ------->https://contacts-app.tobbymarshall815.vercel.app/login
+20:53:00. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+20:53:20. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+20:53:20. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+20:53:20. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+20:53:20. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+20:53:20. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+20:53:20. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+20:53:21. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+20:53:21. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[2]
+20:53:21. INFO  manager.MyListener - The element with locator --->By.xpath: //button[2]was found
+20:53:21. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+20:53:21. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found

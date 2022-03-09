@@ -1,0 +1,77 @@
+19:48:01. INFO  manager.ApplicationManager - All tests starts in Chrome browser
+19:48:01. INFO  manager.ApplicationManager - Link ------->https://contacts-app.tobbymarshall815.vercel.app/login
+19:48:02. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:48:22. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+19:48:22. INFO  tests.TestBase - User starts login process with email: noa@gmail.com && password : Nnoa12345$
+19:48:22. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+19:48:22. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+19:48:22. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+19:48:22. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+19:48:22. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+19:48:22. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+19:48:22. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[1]
+19:48:22. INFO  manager.MyListener - The element with locator --->By.xpath: //button[1]was found
+19:48:27. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+19:48:36. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+19:48:36. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+19:48:36. INFO  tests.TestBase - User starts login process with email: noa1@gmail.com && password : Nnoa112345$
+19:48:36. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+19:48:36. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+19:48:36. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+19:48:36. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[1]
+19:48:36. INFO  manager.MyListener - The element with locator --->By.xpath: //button[1]was found
+19:48:41. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:48:41. INFO  manager.MyListener - Something went wrong!!!
+19:48:41. INFO  manager.MyListener - unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=99.0.4844.51): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 366165984a5fd051bf12ab14b1727be3
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+19:48:41. INFO  manager.MyListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=99.0.4844.51): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 366165984a5fd051bf12ab14b1727be3
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+19:48:42. INFO  manager.MyListener - This link to screenshot with error ------>src/test/screenshots2921.png
+19:48:42. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:49:02. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+19:49:02. INFO  tests.TestBase - User starts login process with email: noa2@gmail.com && password : Nnoa122345$
+19:49:02. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+19:49:02. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+19:49:02. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+19:49:02. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+19:49:02. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+19:49:02. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+19:49:02. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[1]
+19:49:02. INFO  manager.MyListener - The element with locator --->By.xpath: //button[1]was found
+19:49:07. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:49:07. INFO  manager.MyListener - Something went wrong!!!
+19:49:07. INFO  manager.MyListener - unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=99.0.4844.51): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 366165984a5fd051bf12ab14b1727be3
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+19:49:07. INFO  manager.MyListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=99.0.4844.51): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 366165984a5fd051bf12ab14b1727be3
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+19:49:08. INFO  manager.MyListener - This link to screenshot with error ------>src/test/screenshots2947.png

@@ -31,6 +31,7 @@ public class RegistrationTest extends TestBase{
    }
     @Test
     public void registrationTestWrogEmail(){
+        app.getUser().takeScreenshot("src/test/screenshots/rst.png"); // screenshots
 
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         String email = "noa" +i+ "gmail.com";
