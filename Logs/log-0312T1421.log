@@ -1,0 +1,29 @@
+14:21:36. INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+14:21:37. INFO  manager.ApplicationManager - Link ------->https://contacts-app.tobbymarshall815.vercel.app/login
+14:21:37. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14:21:57. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+14:21:57. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+14:21:57. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+14:21:57. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+14:21:57. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+14:21:58. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+14:21:58. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+14:21:58. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[2]
+14:21:58. INFO  manager.MyListener - The element with locator --->By.xpath: //button[2]was found
+14:21:58. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+14:22:13. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+14:22:13. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+14:22:13. INFO  tests.TestBase - User{email='noa@gmail.com', password='Nnoa12345$'}
+14:22:13. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+14:22:13. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+14:22:13. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+14:22:13. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[1]
+14:22:13. INFO  manager.MyListener - The element with locator --->By.xpath: //button[1]was found
+14:22:19. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14:22:19. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found

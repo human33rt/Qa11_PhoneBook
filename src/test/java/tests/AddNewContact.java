@@ -72,7 +72,7 @@ public class AddNewContact extends TestBase {
 
     }
 
-    @Test (dataProvider = "dt")
+    @Test (enabled = false)
     public void addNewContactSuccessNew(){
 
         int countStart = app.contact().countOfContacts();

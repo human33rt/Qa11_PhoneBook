@@ -11,14 +11,14 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
         }
     }
 
-    @Test(dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class)
+    @Test(dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false)
     public void loginSuccessTestDataProvider(String email, String password){
         logger.info("User starts login process with email: "+email+" && password : "+password);
 
@@ -29,7 +29,7 @@ public class LoginTest extends TestBase{
         Assert.assertTrue(app.getUser().isLogged());
     }
 
-    @Test(dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class)
+    @Test(dataProvider = "loginValidData",dataProviderClass = MyDataProvider.class,enabled = false )
     public void loginSuccessTestModelDataProvider(User user){
         logger.info("User starts login process with data: ---->"+ user.toString());
 
@@ -63,7 +63,7 @@ public class LoginTest extends TestBase{
         // chk sign out is present
         //Assert.assertTrue(wd.findElements(By.xpath("//button[text()='Sign Out']")).size() > 0);
 
-    @Test
+    @Test(groups = {"web"})
     public void loginTest2(){
         User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
         //String email = "noa@gmail.com";
@@ -80,7 +80,7 @@ public class LoginTest extends TestBase{
         Assert.assertTrue(app.getUser().isLogged());
     }
 
-    @Test
+    @Test(enabled = false)
     public void loginNegativeWrongPassword(){
         User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345");
 
