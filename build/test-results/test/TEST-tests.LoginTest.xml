@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-18T07:48:44" hostname="DESKTOP-B7SSTIV" time="5.447">
+  <properties/>
+  <testcase name="loginTest2" classname="tests.LoginTest" time="5.447"/>
+  <system-out><![CDATA[10:48:44. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+10:48:44. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+10:48:44. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+10:48:44. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+10:48:44. INFO  tests.TestBase - User{email='noa@gmail.com', password='Nnoa12345$'}
+10:48:44. INFO  manager.MyListener - Start search element by locator --->By.xpath: //a[text()='LOGIN']
+10:48:44. INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='LOGIN']was found
+10:48:44. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+10:48:44. INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]was found
+10:48:44. INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+10:48:45. INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]was found
+10:48:45. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[1]
+10:48:45. INFO  manager.MyListener - The element with locator --->By.xpath: //button[1]was found
+10:48:50. INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+10:48:50. INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
